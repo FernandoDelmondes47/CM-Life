@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source sans pro';
+}
+
+body{
+    background-color: #fff;
+    width: 100vw;
+}
+
+.secao{
+    width: 64rem;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+.cabecalho{
+    background-color: #00d8d8;
+}
+
+.cabecalho-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    font-size: 1.0625rem;
+    text-decoration: none;
+    padding-left: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*main*/
+
+main{
+    padding-bottom: 4.375rem;
+}
+
+.corpo-nav-especialidades{
+    padding: 3.125rem;
+    text-align: center;
+}
+
+.corpo-nav-especialidades a{
+    padding: 0 0.3125rem;
+    text-decoration: none;
+    border-bottom: 0.125rem solid #00cad1;
+    margin: 0 0.625rem 0.625rem;
+    font-size: 1.125rem;
+    color: #474747;
+}
+
+h1{
+    text-align: center;
+    color: #474747;
+    font-size: 1.875rem;
+}
+
+.corpo-especialidades-texto h3{
+    padding-bottom: 1.25rem;
+    font-size: 1.5625rem;
+}
+
+.corpo-especialidades-texto{
+    text-align: center;
+    width: 37.5rem;
+    padding-top: 4.375rem;
+    padding-bottom: 0.625rem;
+    color: #474747;
+    font-size: 1.0625rem;
+}
+
+.corpo-horarios img{
+    height: 15rem;
+    width: 15rem;
+}
+
+.corpo-horarios{
+    display: flex;
+}
+
+table{
+    border-collapse: collapse;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.041);
+}
+
+.corpo-horarios th{
+    background-color: #00d8d8;
+    color: #fff;
+    font-size: 1.25rem;
+    width: 100vw;
+    text-align: left;
+    padding: 0.3125rem 0 0.3125rem 0.625rem;
+    
+}
+
+.corpo-horarios td{
+    text-align: left;
+    color: #474747;
+    font-size: 1.0625rem;
+    padding: 0.3125rem 0 0.3125rem 0.625rem;
+}
+
+.corpo-horarios tr:nth-of-type(odd){
+    background-color: #d6d5d5;
+}
+
+/*Rodape*/
+
+.rodape{
+    width: 100vw;
+    background-color: #217985;
+}
+.rodape-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-conteudo p{
+    color: #fff;
+    font-size: 1.1875rem;
+    padding-bottom: 0.9375rem;
+}
