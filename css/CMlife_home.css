@@ -41,7 +41,7 @@ nav a{
 /*main*/
 
 .corpo-conteudo{
-    background-image: url(/assets/recepcao.png);
+    background-image: url("/assets/recepcao.png");
     background-position: 50% 65%;
     background-size: cover;
     width: 100vw;
